@@ -84,34 +84,43 @@ document.getElementById("try").style.display = "block"
 if (!["A", "B", "C", "D"||" "].includes(answer1)) {
     document.getElementById("displayero1").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer2))
+       }  
+        if (!["A", "B", "C", "D"].includes(answer2)){
         document.getElementById("displayero2").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer3))
+        }
+        if (!["A", "B", "C", "D"].includes(answer3)){
         document.getElementById("displayero3").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer4))
+        }
+        if (!["A", "B", "C", "D"].includes(answer4)){
         document.getElementById("displayero4").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer5))
+        }
+        if (!["A", "B", "C", "D"].includes(answer5)){
         document.getElementById("displayero5").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer6))
+        }
+        if (!["A", "B", "C", "D"].includes(answer6)){
         document.getElementById("displayero6").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer7))
+        }
+        if (!["A", "B", "C", "D"].includes(answer7)){
         document.getElementById("displayero7").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer8))
+        }
+        if (!["A", "B", "C", "D"].includes(answer8)){
         document.getElementById("displayero8").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer9))
+        }
+        if (!["A", "B", "C", "D"].includes(answer9)){
         document.getElementById("displayero9").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer10))
+        }
+        if (!["A", "B", "C", "D"].includes(answer10)){
         document.getElementById("displayero10").textContent =
         "Enter one letter: A, B, C, or D.";
-}
+        }
 }
 
 
@@ -202,34 +211,43 @@ document.getElementById("try").style.display = "block"
 if (!["A", "B", "C", "D"||" "].includes(answer1)) {
     document.getElementById("displayero1").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer2))
+       }  
+        if (!["A", "B", "C", "D"].includes(answer2)){
         document.getElementById("displayero2").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer3))
+        }
+        if (!["A", "B", "C", "D"].includes(answer3)){
         document.getElementById("displayero3").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer4))
+        }
+        if (!["A", "B", "C", "D"].includes(answer4)){
         document.getElementById("displayero4").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer5))
+        }
+        if (!["A", "B", "C", "D"].includes(answer5)){
         document.getElementById("displayero5").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer6))
+        }
+        if (!["A", "B", "C", "D"].includes(answer6)){
         document.getElementById("displayero6").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer7))
+        }
+        if (!["A", "B", "C", "D"].includes(answer7)){
         document.getElementById("displayero7").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer8))
+        }
+        if (!["A", "B", "C", "D"].includes(answer8)){
         document.getElementById("displayero8").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer9))
+        }
+        if (!["A", "B", "C", "D"].includes(answer9)){
         document.getElementById("displayero9").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer10))
+        }
+        if (!["A", "B", "C", "D"].includes(answer10)){
         document.getElementById("displayero10").textContent =
         "Enter one letter: A, B, C, or D.";
-}
+        }
 }
 
 
@@ -320,34 +338,43 @@ document.getElementById("try").style.display = "block"
 if (!["A", "B", "C", "D"||" "].includes(answer1)) {
     document.getElementById("displayero1").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer2))
+       }  
+        if (!["A", "B", "C", "D"].includes(answer2)){
         document.getElementById("displayero2").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer3))
+        }
+        if (!["A", "B", "C", "D"].includes(answer3)){
         document.getElementById("displayero3").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer4))
+        }
+        if (!["A", "B", "C", "D"].includes(answer4)){
         document.getElementById("displayero4").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer5))
+        }
+        if (!["A", "B", "C", "D"].includes(answer5)){
         document.getElementById("displayero5").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer6))
+        }
+        if (!["A", "B", "C", "D"].includes(answer6)){
         document.getElementById("displayero6").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer7))
+        }
+        if (!["A", "B", "C", "D"].includes(answer7)){
         document.getElementById("displayero7").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer8))
+        }
+        if (!["A", "B", "C", "D"].includes(answer8)){
         document.getElementById("displayero8").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer9))
+        }
+        if (!["A", "B", "C", "D"].includes(answer9)){
         document.getElementById("displayero9").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer10))
+        }
+        if (!["A", "B", "C", "D"].includes(answer10)){
         document.getElementById("displayero10").textContent =
         "Enter one letter: A, B, C, or D.";
-}
+        }
 }
 
 
@@ -438,34 +465,43 @@ document.getElementById("try").style.display = "block"
 if (!["A", "B", "C", "D"||" "].includes(answer1)) {
     document.getElementById("displayero1").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer2))
+       }  
+        if (!["A", "B", "C", "D"].includes(answer2)){
         document.getElementById("displayero2").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer3))
+        }
+        if (!["A", "B", "C", "D"].includes(answer3)){
         document.getElementById("displayero3").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer4))
+        }
+        if (!["A", "B", "C", "D"].includes(answer4)){
         document.getElementById("displayero4").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer5))
+        }
+        if (!["A", "B", "C", "D"].includes(answer5)){
         document.getElementById("displayero5").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer6))
+        }
+        if (!["A", "B", "C", "D"].includes(answer6)){
         document.getElementById("displayero6").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer7))
+        }
+        if (!["A", "B", "C", "D"].includes(answer7)){
         document.getElementById("displayero7").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer8))
+        }
+        if (!["A", "B", "C", "D"].includes(answer8)){
         document.getElementById("displayero8").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer9))
+        }
+        if (!["A", "B", "C", "D"].includes(answer9)){
         document.getElementById("displayero9").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer10))
+        }
+        if (!["A", "B", "C", "D"].includes(answer10)){
         document.getElementById("displayero10").textContent =
         "Enter one letter: A, B, C, or D.";
-}
+        }
 }
 
 
@@ -556,32 +592,42 @@ document.getElementById("try").style.display = "block"
 if (!["A", "B", "C", "D"||" "].includes(answer1)) {
     document.getElementById("displayero1").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer2))
+       }  
+        if (!["A", "B", "C", "D"].includes(answer2)){
         document.getElementById("displayero2").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer3))
+        }
+        if (!["A", "B", "C", "D"].includes(answer3)){
         document.getElementById("displayero3").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer4))
+        }
+        if (!["A", "B", "C", "D"].includes(answer4)){
         document.getElementById("displayero4").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer5))
+        }
+        if (!["A", "B", "C", "D"].includes(answer5)){
         document.getElementById("displayero5").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer6))
+        }
+        if (!["A", "B", "C", "D"].includes(answer6)){
         document.getElementById("displayero6").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer7))
+        }
+        if (!["A", "B", "C", "D"].includes(answer7)){
         document.getElementById("displayero7").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer8))
+        }
+        if (!["A", "B", "C", "D"].includes(answer8)){
         document.getElementById("displayero8").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer9))
+        }
+        if (!["A", "B", "C", "D"].includes(answer9)){
         document.getElementById("displayero9").textContent =
         "Enter one letter: A, B, C, or D.";
-        if (!["A", "B", "C", "D"].includes(answer10))
+        }
+        if (!["A", "B", "C", "D"].includes(answer10)){
         document.getElementById("displayero10").textContent =
         "Enter one letter: A, B, C, or D.";
-}
+        }
+       
 }
