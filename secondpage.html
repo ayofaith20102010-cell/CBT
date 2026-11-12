@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+    background-color: #eef6ff;
+       background:
+        linear-gradient(rgba(8, 18, 47, 0.72), rgba(12, 37, 67, 0.78)),
+        url("./dna-structure.png") center / cover no-repeat fixed;
+        } */
+
+        body {
+    background-color: #0B1F3A;
+    color: white;
+}
+        #all{
+            /* background-color:  #eef4f8; */
+            width: 98vw;
+            height: 90vh;
+        }
+        #begin{
+            font-size: 3rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        img{
+            width: 16vw;
+        }
+        #forsub{
+         
+        }
+        #fir{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        #sec{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        label{
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #maths,#engs,#phys,#chems,#bios{
+            width: 30vw;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            margin-left: 6px;
+            margin-top: 10px;
+            display: none;
+            font-size: 1.4rem;
+            background-color:#3b82f6;
+            border: none;
+        }
+        #maths:hover, #engs:hover, #phys:hover, #chems:hover, #bios:hover {
+            background-color: #2563eb;
+            }
+        @media screen and (max-width: 600px){
+            #fir{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            #sec{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            #all{
+                width: 90vw;
+                height: 90vh !important;
+            }
+            #begin{
+                font-size: 1.3rem;
+                font-family: cursive;
+            }
+            #img{
+                width: 15vw !important;
+                border: none;
+            }
+            label{
+                font-size: 1.1rem;
+                font-weight: bold;
+                font-family: cursive;
+            }
+             #maths,#engs,#phys,#chems,#bios{
+            width: 30vw;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            margin-left: 6px;
+            margin-top: 10px;
+            display: none;
+            font-size: 1rem;
+            border: none;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="all">
+        <div id="begin">chosse a subject of choice</div>
+
+        <div id="forsub">
+            <div id="fir">
+                
+        <img id="math" src="math-book.png.png" onclick="handlemath()" alt="Mathematics">
+        
+        <label>Mathematics</label>
+       
+
+        <img id="eng" onclick="handleeng()" src="english-book.png" alt="English">
+        <label>English</label>
+        </div>
+
+        <div id="sec">
+        <img id="phy" onclick="handlephy()" src="circle.png" alt="Physics">
+        <label>Physics</label>
+
+        <img id="chem" onclick="handlechem()" src="chemistry.png" alt="Chemistry">
+        <label>Chemistry</label>
+
+        <img id="bio" onclick="handlebio()" src="dna-structure.png" alt="Biology">
+        <label>Biology</label>
+        </div>
+<a href="./math.html">
+        <button id="maths" onclick="handlequestion()">start</button>
+</a>
+<a href="./eng.html">
+        <button id="engs" onclick="handlequestion()">start</button>
+</a>
+<a href="./phy.html">
+        <button id="phys" onclick="handlequestion()">start</button>
+</a>
+<a href="./chem.html">
+        <button id="chems" onclick="handlequestion()">start</button>
+</a>
+<a href="./chem.html">
+        <button id="bios" onclick="handlequestion()">start</button>
+</a>
+        </div>
+
+        
+
+    </div>
+
+    <script src="cbt.js"></script>
+</body>
+</html>

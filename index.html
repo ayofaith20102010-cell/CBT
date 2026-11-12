@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            background:linear-gradient(rgba(36, 36, 126, 0.7), rgba(24, 113, 202, 0.7)), url('./dna-structure.png'); 
+             background-repeat: no-repeat; 
+             width: 98vw;
+             background:
+        linear-gradient(rgba(8, 18, 47, 0.72), rgba(12, 37, 67, 0.78)),
+        url("./dna-structure.png") center / cover no-repeat fixed;
+        } */
+
+        body {
+    background-color: #0B1F3A;
+    color: white;
+}
+        h1, h4, #special, #secspecial, #firstrule, #byb {
+            font-family: Arial, sans-serif;
+        }
+        #openall {
+    width: 95vw;
+    min-height: 97vh;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background: rgba(255, 255, 255, 0.88);
+    background-color: #0B1F3A;
+    color: white;
+}
+        #special{
+            width:4.5vw;
+            height:7vh;
+            background-color:#137c72;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 16px;
+            margin-left: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #secspecial{
+            color:white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-left: 15px;
+            border-radius: 10px;
+            width: 15vw;
+        }
+        #firstrule{
+            font-size: 1.2rem;
+            margin-top: 35px;
+            margin-left: 900px;
+            width: 20vw;
+            
+        }
+        #secopen{
+            display: flex;
+            border: 1px solid black;
+            width: 95vw;
+            height: 12vh;
+           border-radius: 10px;
+        }
+        #comtes{
+            font-size: 1.3rem;
+            /* margin-top: 20px;
+            margin-left: 20px; */
+             background:linear-gradient(rgba(2, 2, 40, 0.7), rgba(4, 39, 57, 0.7));
+            letter-spacing: 1px;
+            background-color: #e9f6f3;
+            width:95vw;
+            height:40vh;
+        }
+        #story{
+            font-size:1.2rem;
+            width:50vw;
+            margin-left: 20px;
+        }
+        .spesall{
+            display: flex;
+            justify-content: space-between;
+            width: 30vw;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        #time, #question, #att{
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color:#e9f6f3;
+            color: #0B1F3A;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        #welcan{
+             margin-left: 20px;
+        }
+        #cbt{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 20px;
+            font-size: 1.2rem;
+        }
+        #byb{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .warn{
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #help{
+            font-size: 1.2rem;
+            margin-left: 20px;
+        }
+        #but{
+            margin-left: 20px;
+            margin-top: 20px;
+            background-color: #137c72;
+            color: white;
+            font-size: 1.5rem;
+            width:15vw;
+            height: 7vh;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            border: none;
+        }
+        @media  (max-width:600px){
+            #special{
+               font-size: 1.5rem !important;
+               width: 15vw !important;
+               height: 7vh !important;
+            }
+             #secspecial{
+                width:auto !important;
+                margin-top: 30px !important;
+             }
+            #firstrule{
+                display:none !important;
+            }
+            #story{
+                width:90vw !important;
+            }
+            #comtes{
+                width:auto !important;
+                height:37vh !important;
+            }
+            #time, #question, #att{
+                font-size: 0.635rem !important;          
+            }         
+            .spesall{
+                width: 80vw !important;
+            }
+            #welcan{
+                width: auto !important;
+                font-size: 2rem !important;
+            }
+            #cbt{
+                font-size: 1rem !important;
+            }
+             #byb{
+               font-size: 1.5rem;
+               font-weight: bold;
+               margin-top: 20px;
+               margin-left: 20px;
+            }
+             p{
+               margin-left: 20px;
+            }
+            .warn{
+                display:grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="openall">
+        <div id="secopen">
+         <div id="special">
+            GM
+         </div>
+         <div id="secspecial">
+            Great Minds
+         </div>
+         <div id="firstrule">
+             Examination instructions
+         </div>
+         </div>
+
+        <div id="comtes">
+        <h4 id="cbt">● COMPUTER BASED TEST</h4>
+        <h1 id="welcan">Welcome, Candidate</h1>
+        <p id="story">You’re about to begin your examination. Take a moment to read these instructions so you can focus on doing your best.</p>
+
+         <span class="spesall">
+        <span id="time">
+            ⏱  60 minutes
+        </span>
+        <span id="question">
+            ▤  40 questions
+        </span>
+        <span id="att">
+            ✓  One attempt
+        </span>
+        </span>
+        </div>
+
+        <div id="bbbyybb">
+        <div id="byb">
+            Before you begin
+        </div>
+
+        <div class="warn">
+        <div>
+        <p>✓Check that your name and candidate details are correct.</p>
+        <p>✓Find a quiet place and make sure your device is charged.</p>
+        <p>✓Read each question carefully and keep an eye on the timer.</p>
+        </div>
+        <div>
+        <p>×Do not refresh or close the page during the test.</p>
+        <p>×Do not share answers or communicate with other candidates.</p>
+        <p>×Do not submit until you have finished reviewing your answers.</p>
+        </div>
+        </div>
+      
+        <p id="help">Note: If you have a technical problem, raise your hand and ask the invigilator for help.</p>
+        
+        <a href="./login.html">
+        <button id="but" onclick="shownext">Start Test</button>
+        </a>
+    </div>
+</body>
+</html> 

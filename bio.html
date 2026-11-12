@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Questions</title>
+    <style>
+         body{
+            background-color: #0B1F3A;
+    color: white;
+        }
+        #title{
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+            margin-top: 15px;
+        }
+        div{
+            font-size: 1.6rem;
+        }
+        input{
+            width: 20vw;
+            height: 5vh;
+            font-size: 1.5rem;
+        }
+        button{
+            width: 20vw;
+            height: 6vh;
+            margin-top: 50px;
+            border: none;
+        }
+        #ok{
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #new{
+          display: none;
+          border: none;
+        }
+        #try{
+            display: none;
+            border: none;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+         #displayero1,#displayero2,#displayero3,#displayero4,#displayero5,#displayero6,#displayero7,#displayero8,#displayero9,#displayero10{
+        color: red;
+    }
+     #display1,#display2,#display3,#display4,#display5,#display6,#display7,#display8,#display9,#display10{
+        color: green;
+    }
+      @media screen and (max-width: 600px) {
+        .all{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #title{
+            font-size: 2.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p id="title">Biology Questions</p>
+    <div class="all">
+        <div>
+            <div id="one">1. What is the basic structural and functional unit of life?</div>
+            <p>A. Tissue</p>
+            <p>B. Organ</p>
+            <p>C. Cell</p>
+            <p>D. System</p>
+            <label for="answer1">Your answer (A-D):
+                <input type="text" id="answer1" name="answer1">
+            </label>
+            <div id="display1" aria-live="polite"></div>
+            <div id="displayero1" aria-live="polite"></div>
+        </div>
+        <div id="two">
+            <div>2. Which cell structure carries out most photosynthesis in plants?</div>
+            <p>A. Nucleus</p>
+            <p>B. Chloroplast</p>
+            <p>C. Ribosome</p>
+            <p>D. Cell membrane</p>
+            <label for="answer2">Your answer (A-D):
+                <input type="text" id="answer2" name="answer2">
+            </label>
+            <div id="display2" aria-live="polite"></div>
+            <div id="displayero2" aria-live="polite"></div>
+        </div>
+        <div id="three">
+            <div>3. Which blood cells mainly carry oxygen around the body?</div>
+            <p>A. Red blood cells</p>
+            <p>B. White blood cells</p>
+            <p>C. Platelets</p>
+            <p>D. Nerve cells</p>
+            <label for="answer3">Your answer (A-D):
+                <input type="text" id="answer3" name="answer3">
+            </label>
+            <div id="display3" aria-live="polite"></div>
+            <div id="displayero3" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="four">4. Which molecule contains most inherited genetic information?</div>
+            <p>A. Starch</p>
+            <p>B. Water</p>
+            <p>C. Protein</p>
+            <p>D. DNA</p>
+            <label for="answer4">Your answer (A-D):
+                <input type="text" id="answer4" name="answer4">
+            </label>
+            <div id="display4" aria-live="polite"></div>
+            <div id="displayero4" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="five">5. What is the main function of the human heart?</div>
+            <p>A. Digest food</p>
+            <p>B. Pump blood</p>
+            <p>C. Produce oxygen</p>
+            <p>D. Filter air</p>
+            <label for="answer5">Your answer (A-D):
+                <input type="text" id="answer5" name="answer5">
+            </label>
+            <div id="display5" aria-live="polite"></div>
+            <div id="displayero5" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="six">6. Which plant structure mainly absorbs water from the soil?</div>
+            <p>A. Flower</p>
+            <p>B. Leaf</p>
+            <p>C. Root</p>
+            <p>D. Fruit</p>
+            <label for="answer6">Your answer (A-D):
+                <input type="text" id="answer6" name="answer6">
+            </label>
+            <div id="display6" aria-live="polite"></div>
+            <div id="displayero6" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="seven">7. What do we call an organism that makes its own food?</div>
+            <p>A. Producer</p>
+            <p>B. Consumer</p>
+            <p>C. Decomposer</p>
+            <p>D. Parasite</p>
+            <label for="answer7">Your answer (A-D):
+                <input type="text" id="answer7" name="answer7">
+            </label>
+            <div id="display7" aria-live="polite"></div>
+            <div id="displayero7" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="eight">8. What is one main purpose of cellular respiration?</div>
+            <p>A. To store sunlight in leaves</p>
+            <p>B. To make soil</p>
+            <p>C. To produce chlorophyll</p>
+            <p>D. To release usable energy from food</p>
+            <label for="answer8">Your answer (A-D):
+                <input type="text" id="answer8" name="answer8">
+            </label>
+            <div id="display8" aria-live="polite"></div>
+            <div id="displayero8" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="nine">9. Which feature is characteristic of mammals?</div>
+            <p>A. They all lay eggs</p>
+            <p>B. They feed their young with milk</p>
+            <p>C. They all live in water</p>
+            <p>D. They have feathers</p>
+            <label for="answer9">Your answer (A-D):
+                <input type="text" id="answer9" name="answer9">
+            </label>
+            <div id="display9" aria-live="polite"></div>
+            <div id="displayero9" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="ten">10. What is an ecosystem?</div>
+            <p>A. A single animal and its food</p>
+            <p>B. Only the plants in an area</p>
+            <p>C. Living organisms and their physical environment</p>
+            <p>D. A group of identical cells</p>
+            <label for="answer10">Your answer (A-D):
+                <input type="text" id="answer10" name="answer10">
+            </label>
+            <div id="display10" aria-live="polite"></div>
+            <div id="displayero10" aria-live="polite"></div>
+        </div>
+        <div id="ok">
+         <a href="./secondpage.html">
+        <button id="new">New subject</button>
+        </a>
+
+        <button type="button" id="finish" onclick="finishBiologyQuestions()">Finish</button>
+
+        <a href="./bio.html">
+        <button id="try">try again</button>
+        </a>
+        </div>
+    </div>
+    <script src="./math.js"></script>
+</body>
+</html>

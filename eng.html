@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Questions</title>
+    <style>
+         body{
+            background-color: #0B1F3A;
+    color: white;
+        }
+        #title{
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+            margin-top: 15px;
+        }
+        div{
+            font-size: 1.6rem;
+        }
+        input{
+            width: 20vw;
+            height: 5vh;
+            font-size: 1.5rem;
+        }
+         button{
+            width: 20vw;
+            height: 6vh;
+            margin-top: 50px;
+            border: none;
+            border-radius: 10px;
+        }
+        #ok{
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #new{
+          display: none;
+          border: none;
+        }
+        #try{
+            display: none;
+            border: none;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+         #displayero1,#displayero2,#displayero3,#displayero4,#displayero5,#displayero6,#displayero7,#displayero8,#displayero9,#displayero10{
+        color: red;
+    }
+     #display1,#display2,#display3,#display4,#display5,#display6,#display7,#display8,#display9,#display10{
+        color: green;
+    }
+      @media screen and (max-width: 600px) {
+        .all{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #title{
+            font-size: 2.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p id="title">English Questions</p>
+    <div class="all">
+        <div>
+            <div id="one">1. Choose the correctly spelled word.</div>
+            <p>A. Recieve</p>
+            <p>B. Receive</p>
+            <p>C. Receeve</p>
+            <p>D. Receve</p>
+            <label for="answer1">Your answer (A-D):
+                <input type="text" id="answer1" name="answer1">
+            </label>
+            <div id="display1" aria-live="polite"></div>
+            <div id="displayero1" aria-live="polite"></div>
+        </div>
+        <div id="two">
+            <div>2. Which word is a synonym for "rapid"?</div>
+            <p>A. Slow</p>
+            <p>B. Quiet</p>
+            <p>C. Fast</p>
+            <p>D. Weak</p>
+            <label for="answer2">Your answer (A-D):
+                <input type="text" id="answer2" name="answer2">
+            </label>
+            <div id="display2" aria-live="polite"></div>
+            <div id="displayero2" aria-live="polite"></div>
+        </div>
+        <div id="three">
+            <div>3. What is the plural form of "child"?</div>
+            <p>A. Childs</p>
+            <p>B. Childes</p>
+            <p>C. Children</p>
+            <p>D. Childrens</p>
+            <label for="answer3">Your answer (A-D):
+                <input type="text" id="answer3" name="answer3">
+            </label>
+            <div id="display3" aria-live="polite"></div>
+            <div id="displayero3" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="four">4. Identify the noun in this sentence: "The dog barked loudly."</div>
+            <p>A. The</p>
+            <p>B. Dog</p>
+            <p>C. Barked</p>
+            <p>D. Loudly</p>
+            <label for="answer4">Your answer (A-D):
+                <input type="text" id="answer4" name="answer4">
+            </label>
+            <div id="display4" aria-live="polite"></div>
+            <div id="displayero4" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="five">5. Choose the correct word: "She ___ to school every day."</div>
+            <p>A. Go</p>
+            <p>B. Goes</p>
+            <p>C. Going</p>
+            <p>D. Gone</p>
+            <label for="answer5">Your answer (A-D):
+                <input type="text" id="answer5" name="answer5">
+            </label>
+            <div id="display5" aria-live="polite"></div>
+            <div id="displayero5" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="six">6. Which word is an antonym for "ancient"?</div>
+            <p>A. Old</p>
+            <p>B. Historic</p>
+            <p>C. Modern</p>
+            <p>D. Past</p>
+            <label for="answer6">Your answer (A-D):
+                <input type="text" id="answer6" name="answer6">
+            </label>
+            <div id="display6" aria-live="polite"></div>
+            <div id="displayero6" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="seven">7. Which punctuation mark ends a direct question?</div>
+            <p>A. Full stop (.)</p>
+            <p>B. Comma (,)</p>
+            <p>C. Question mark (?)</p>
+            <p>D. Colon (:)</p>
+            <label for="answer7">Your answer (A-D):
+                <input type="text" id="answer7" name="answer7">
+            </label>
+            <div id="display7" aria-live="polite"></div>
+            <div id="displayero7" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="eight">8. Identify the adjective: "The bright sun warmed us."</div>
+            <p>A. The</p>
+            <p>B. Bright</p>
+            <p>C. Sun</p>
+            <p>D. Warmed</p>
+            <label for="answer8">Your answer (A-D):
+                <input type="text" id="answer8" name="answer8">
+            </label>
+            <div id="display8" aria-live="polite"></div>
+            <div id="displayero8" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="nine">9. What is the past tense of "write"?</div>
+            <p>A. Writed</p>
+            <p>B. Written</p>
+            <p>C. Wrote</p>
+            <p>D. Writing</p>
+            <label for="answer9">Your answer (A-D):
+                <input type="text" id="answer9" name="answer9">
+            </label>
+            <div id="display9" aria-live="polite"></div>
+            <div id="displayero9" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="ten">10. Choose the correct word: "There are ___ apples in the bowl."</div>
+            <p>A. Much</p>
+            <p>B. Any</p>
+            <p>C. Several</p>
+            <p>D. Little</p>
+            <label for="answer10">Your answer (A-D):
+                <input type="text" id="answer10" name="answer10">
+            </label>
+            <div id="display10" aria-live="polite"></div>
+            <div id="displayero10" aria-live="polite"></div>
+        </div>
+
+        <div id="ok">
+        <a href="./secondpage.html">
+        <button id="new">New subject</button>
+        </a>
+
+         <button type="button" id="finish" onclick="finishEnglishQuestions()">Finish</button>
+
+        <a href="./eng.html">
+        <button id="try">try again</button>
+        </a>
+        </div>
+    </div>
+    <script src="./math.js"></script>
+</body>
+</html>

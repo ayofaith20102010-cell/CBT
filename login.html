@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(rgba(8, 18, 47, 0.72), rgba(12, 37, 67, 0.78)),
+        url("./dna-structure.png") center / cover no-repeat fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+} */
+
+body {
+    background-color: #0B1F3A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 80px;
+}
+        #homeall{
+            background: rgba(255, 255, 255, 0.12);        
+            border-radius: 22px;
+            padding:32px;
+            width: 35vw;
+        }
+        input{
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            width: 30vw;
+            min-width: 250px;
+            height: 7vh;
+            font-size: 1.15rem;
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border: none;
+            border-radius: 12px;
+            outline: none;
+            background: rgba(255, 255, 255, 0.94);
+        }
+        #showfirst{
+            width: 10vw;
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            font-size: 1.5rem;
+            text-align: center;
+            border-radius: 10px;
+        }
+         #shownext{
+            width: 10vw;
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            align-items: center;
+            font-size: 1.5rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        p{
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+        #header{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        #secheader{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        #errorfullname, #errorusername, #errorage, #erroremail{
+            color: red;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        #shownext{
+            display: none;
+        }
+
+        @media screen and  (max-width:600px){
+            input{
+                width: 80vw;
+                height: 7vh;
+                font-size: 1.15rem;
+            }
+            button{
+                width: 20vw;
+                height: 7vh;
+                font-size: 1.5rem;
+            }
+            #header{
+                font-size: 1.5rem;
+            }
+            #secheader{
+                font-size: 1.25rem;
+            }
+            #homeall{
+                width: 80vw;
+            }
+            #showfirst{
+                width: 40vw;
+            }
+            #shownext{
+                width: 30vw;
+            }
+        }
+
+</style>
+</head>
+<body>
+    <div id="homeall">
+        <p id="header">
+            Grate Minds CBT Exam
+        </p>
+
+        <p id="secheader">fill the form below to start</p>
+
+        <div id = "errorfullname"></div>
+        <input type = "text" placeholder = "enter full name" id = "userfullname">
+          <div id = "errorusername"></div>
+        <input type = "text" placeholder = "enter your username" id = "username">
+       <div id = "errorage"></div>
+        <input type = "number" placeholder ="input your age" id = "userage">
+        <div id = "erroremail"></div>
+        <input type = "email" placeholder = "input your email" id = "useremail">
+
+        <button id="showfirst" onclick="handlesubmit()">submit</button>
+           
+        <a href="./secondpage.html">
+        <button id="shownext" onclick="shownext()">next</button>
+        </a>
+    
+
+    </div>
+<script src="cbt.js"></script>
+
+</body>
+</html>

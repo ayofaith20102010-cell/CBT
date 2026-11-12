@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Questions</title>
+    <style>
+         body{
+            background-color: #0B1F3A;
+    color: white;
+        }
+        #title{
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+            margin-top: 15px;
+        }
+        div{
+            font-size: 1.6rem;
+        }
+        input{
+            width: 20vw;
+            height: 5vh;
+            font-size: 1.5rem;
+        }
+        button{
+            width: 20vw;
+            height: 6vh;
+            margin-top: 50px;
+            border: none;
+        }
+        #ok{
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #new{
+          display: none;
+          border: none;
+        }
+        #try{
+            display: none;
+            border: none;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #displayero1,#displayero2,#displayero3,#displayero4,#displayero5,#displayero6,#displayero7,#displayero8,#displayero9,#displayero10{
+        color: red;
+    }
+     #display1,#display2,#display3,#display4,#display5,#display6,#display7,#display8,#display9,#display10{
+        color: green;
+    }
+    @media screen and (max-width: 600px) {
+        .all{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #title{
+            font-size: 2.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p id="title">Chemistry Questions</p>
+    <div class="all">
+        <div>
+            <div id="one">1. The atomic number of an element equals its number of what?</div>
+            <p>A. Protons</p>
+            <p>B. Neutrons</p>
+            <p>C. Electron shells</p>
+            <p>D. Isotopes</p>
+            <label for="answer1">Your answer (A-D):
+                <input type="text" id="answer1" name="answer1">
+            </label>
+            <div id="display1" aria-live="polite"></div>
+            <div id="displayero1" aria-live="polite"></div>
+        </div>
+        <div id="two">
+            <div>2. Which elements make up water (H₂O)?</div>
+            <p>A. Hydrogen and oxygen</p>
+            <p>B. Hydrogen and nitrogen</p>
+            <p>C. Helium and oxygen</p>
+            <p>D. Carbon and oxygen</p>
+            <label for="answer2">Your answer (A-D):
+                <input type="text" id="answer2" name="answer2">
+            </label>
+            <div id="display2" aria-live="polite"></div>
+            <div id="displayero2" aria-live="polite"></div>
+        </div>
+        <div id="three">
+            <div>3. A solution with a pH below 7 is generally what?</div>
+            <p>A. Neutral</p>
+            <p>B. Basic</p>
+            <p>C. Acidic</p>
+            <p>D. Metallic</p>
+            <label for="answer3">Your answer (A-D):
+                <input type="text" id="answer3" name="answer3">
+            </label>
+            <div id="display3" aria-live="polite"></div>
+            <div id="displayero3" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="four">4. What is the chemical symbol for sodium?</div>
+            <p>A. S</p>
+            <p>B. So</p>
+            <p>C. N</p>
+            <p>D. Na</p>
+            <label for="answer4">Your answer (A-D):
+                <input type="text" id="answer4" name="answer4">
+            </label>
+            <div id="display4" aria-live="polite"></div>
+            <div id="displayero4" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="five">5. Which of these is a gas at room temperature?</div>
+            <p>A. Iron</p>
+            <p>B. Oxygen</p>
+            <p>C. Sodium chloride</p>
+            <p>D. Copper</p>
+            <label for="answer5">Your answer (A-D):
+                <input type="text" id="answer5" name="answer5">
+            </label>
+            <div id="display5" aria-live="polite"></div>
+            <div id="displayero5" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="six">6. What happens to electrons when a covalent bond forms?</div>
+            <p>A. They are destroyed</p>
+            <p>B. They are shared between atoms</p>
+            <p>C. They become protons</p>
+            <p>D. They move into the nucleus</p>
+            <label for="answer6">Your answer (A-D):
+                <input type="text" id="answer6" name="answer6">
+            </label>
+            <div id="display6" aria-live="polite"></div>
+            <div id="displayero6" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="seven">7. Which method is commonly used to separate an insoluble solid from a liquid?</div>
+            <p>A. Distillation</p>
+            <p>B. Chromatography</p>
+            <p>C. Filtration</p>
+            <p>D. Evaporation only</p>
+            <label for="answer7">Your answer (A-D):
+                <input type="text" id="answer7" name="answer7">
+            </label>
+            <div id="display7" aria-live="polite"></div>
+            <div id="displayero7" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="eight">8. What are the usual products of an acid reacting with a base?</div>
+            <p>A. Salt and water</p>
+            <p>B. Oxygen and hydrogen</p>
+            <p>C. Metal and carbon</p>
+            <p>D. Sugar and water</p>
+            <label for="answer8">Your answer (A-D):
+                <input type="text" id="answer8" name="answer8">
+            </label>
+            <div id="display8" aria-live="polite"></div>
+            <div id="displayero8" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="nine">9. How many atoms are there in one molecule of carbon dioxide (CO₂)?</div>
+            <p>A. 2</p>
+            <p>B. 3</p>
+            <p>C. 4</p>
+            <p>D. 5</p>
+            <label for="answer9">Your answer (A-D):
+                <input type="text" id="answer9" name="answer9">
+            </label>
+            <div id="display9" aria-live="polite"></div>
+            <div id="displayero9" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="ten">10. In the modern periodic table, elements are arranged by increasing what?</div>
+            <p>A. Atomic mass only</p>
+            <p>B. Number of neutrons</p>
+            <p>C. Atomic number</p>
+            <p>D. Number of compounds</p>
+            <label for="answer10">Your answer (A-D):
+                <input type="text" id="answer10" name="answer10">
+            </label>
+            <div id="display10" aria-live="polite"></div>
+            <div id="displayero10" aria-live="polite"></div>
+        </div>
+        <div id="ok">
+         <a href="./secondpage.html">
+        <button id="new">New subject</button>
+        </a>
+
+        <button type="button" id="finish" onclick="finishChemistryQuestions()">Finish</button>
+
+        <a href="./chem.html">
+        <button id="try">try again</button>
+        </a>
+        </div>
+    </div>
+    <script src="./math.js"></script>
+</body>
+</html>

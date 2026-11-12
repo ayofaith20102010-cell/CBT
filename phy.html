@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Questions</title>
+    <style>
+         body{
+            background-color: #0B1F3A;
+    color: white;
+        }
+        #title{
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+            margin-top: 15px;
+        }
+        div{
+            font-size: 1.6rem;
+        }
+        input{
+            width: 20vw;
+            height: 5vh;
+            font-size: 1.5rem;
+        }
+         button{
+            width: 20vw;
+            height: 6vh;
+            margin-top: 50px;
+            border: none;
+        }
+        #ok{
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #new{
+          display: none;
+          border: none;
+        }
+        #try{
+            display: none;
+            border: none;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #displayero1,#displayero2,#displayero3,#displayero4,#displayero5,#displayero6,#displayero7,#displayero8,#displayero9,#displayero10{
+        color: red;
+    }
+     #display1,#display2,#display3,#display4,#display5,#display6,#display7,#display8,#display9,#display10{
+        color: green;
+    }
+      @media screen and (max-width: 600px) {
+        .all{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #title{
+            font-size: 2.5rem;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p id="title">Physics Questions</p>
+    <div class="all">
+        <div>
+            <div id="one">1. What is the SI unit of force?</div>
+            <p>A. Joule</p>
+            <p>B. Newton</p>
+            <p>C. Watt</p>
+            <p>D. Pascal</p>
+            <label for="answer1">Your answer (A-D):
+                <input type="text" id="answer1" name="answer1">
+            </label>
+            <div id="display1" aria-live="polite"></div>
+            <div id="displayero1" aria-live="polite"></div>
+        </div>
+        <div id="two">
+            <div>2. A runner covers 100 metres in 20 seconds. What is the runner's average speed?</div>
+            <p>A. 5 m/s</p>
+            <p>B. 20 m/s</p>
+            <p>C. 80 m/s</p>
+            <p>D. 120 m/s</p>
+            <label for="answer2">Your answer (A-D):
+                <input type="text" id="answer2" name="answer2">
+            </label>
+            <div id="display2" aria-live="polite"></div>
+            <div id="displayero2" aria-live="polite"></div>
+        </div>
+        <div id="three">
+            <div>3. A charge of 10 coulombs passes a point in 2 seconds. What is the current?</div>
+            <p>A. 2 A</p>
+            <p>B. 3 A</p>
+            <p>C. 5 A</p>
+            <p>D. 20 A</p>
+            <label for="answer3">Your answer (A-D):
+                <input type="text" id="answer3" name="answer3">
+            </label>
+            <div id="display3" aria-live="polite"></div>
+            <div id="displayero3" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="four">4. What is the approximate acceleration due to gravity near Earth's surface?</div>
+            <p>A. 1.6 m/s²</p>
+            <p>B. 9.8 m/s²</p>
+            <p>C. 20 m/s²</p>
+            <p>D. 98 m/s²</p>
+            <label for="answer4">Your answer (A-D):
+                <input type="text" id="answer4" name="answer4">
+            </label>
+            <div id="display4" aria-live="polite"></div>
+             <div id="displayero4" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="five">5. What does a convex lens do to parallel rays of light?</div>
+            <p>A. Spreads them apart</p>
+            <p>B. Absorbs them</p>
+            <p>C. Brings them together</p>
+            <p>D. Reflects them backward</p>
+            <label for="answer5">Your answer (A-D):
+                <input type="text" id="answer5" name="answer5">
+            </label>
+            <div id="display5" aria-live="polite"></div>
+            <div id="displayero5" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="six">6. In a series circuit, which quantity is the same through every component?</div>
+            <p>A. Current</p>
+            <p>B. Resistance</p>
+            <p>C. Power</p>
+            <p>D. Energy</p>
+            <label for="answer6">Your answer (A-D):
+                <input type="text" id="answer6" name="answer6">
+            </label>
+            <div id="display6" aria-live="polite"></div>
+            <div id="displayero6" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="seven">7. An object has a mass of 200 g and a volume of 50 cm³. What is its density?</div>
+            <p>A. 0.25 g/cm³</p>
+            <p>B. 2 g/cm³</p>
+            <p>C. 3 g/cm³</p>
+            <p>D. 4 g/cm³</p>
+            <label for="answer7">Your answer (A-D):
+                <input type="text" id="answer7" name="answer7">
+            </label>
+            <div id="display7" aria-live="polite"></div>
+            <div id="displayero7" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="eight">8. Which statement about sound is correct?</div>
+            <p>A. It travels through a vacuum</p>
+            <p>B. It needs a medium to travel</p>
+            <p>C. It travels only through solids</p>
+            <p>D. It is a type of light</p>
+            <label for="answer8">Your answer (A-D):
+                <input type="text" id="answer8" name="answer8">
+            </label>
+            <div id="display8" aria-live="polite"></div>
+            <div id="displayero8" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="nine">9. A 12 V battery is connected to a 4 Ω resistor. What current flows?</div>
+            <p>A. 0.3 A</p>
+            <p>B. 2 A</p>
+            <p>C. 3 A</p>
+            <p>D. 48 A</p>
+            <label for="answer9">Your answer (A-D):
+                <input type="text" id="answer9" name="answer9">
+            </label>
+            <div id="display9" aria-live="polite"></div>
+        </div>
+        <div>
+            <div id="ten">10. What is one common function of a fixed pulley?</div>
+            <p>A. It changes the direction of the applied force</p>
+            <p>B. It creates energy</p>
+            <p>C. It removes friction completely</p>
+            <p>D. It increases the object's mass</p>
+            <label for="answer10">Your answer (A-D):
+                <input type="text" id="answer10" name="answer10">
+            </label>
+            <div id="display10" aria-live="polite"></div>
+            <div id="displayero10" aria-live="polite"></div>
+        </div>
+        <div id="ok">
+         <a href="./secondpage.html">
+        <button id="new">New subject</button>
+        </a>
+
+         <button type="button" id="finish" onclick="finishPhysicsQuestions()">Finish</button>
+
+        <a href="./phy.html">
+        <button id="try">try again</button>
+        </a>
+        </div>
+    </div>
+    <script src="./math.js"></script>
+</body>
+</html>
